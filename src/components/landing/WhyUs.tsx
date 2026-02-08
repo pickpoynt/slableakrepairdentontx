@@ -33,13 +33,6 @@ const reasons = [
   }
 ];
 
-const stats = [
-  { number: "2000+", label: "STL Jobs" },
-  { number: "100%", label: "Trenchless" },
-  { number: "Lifetime", label: "Guarantee" },
-  { number: "24/7", label: "Emergency Ser." }
-];
-
 const WhyUs = () => {
   return (
     <section id="why-us" className="py-20 bg-slate-50">
@@ -70,21 +63,6 @@ const WhyUs = () => {
               </p>
             </div>
           ))}
-        </div>
-
-        <div className="bg-blue-600 rounded-3xl p-12 text-white shadow-xl">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-            {stats.map((stat, index) => (
-              <div key={index} className="space-y-2">
-                <div className="text-4xl md:text-5xl font-heading font-bold">
-                  {stat.number}
-                </div>
-                <div className="text-blue-100 font-medium">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>
