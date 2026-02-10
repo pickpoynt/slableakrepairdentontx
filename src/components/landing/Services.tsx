@@ -1,53 +1,53 @@
-import { Wind, Shield, Sparkles, AlertTriangle, Zap, Activity, Filter, Thermometer, ShieldCheck, Droplets, Waves, Building2 } from "lucide-react";
+import { Wind, Shield, Sparkles, AlertTriangle, Zap, Activity, Filter, Thermometer, ShieldCheck, Droplets, Waves, Home } from "lucide-react";
 
 const services = [
   {
-    icon: Building2,
-    title: "High-Rise Extraction",
-    description: "Removing water from Ocean City high-rise condos using specialized high-lift pumping systems. We handle multi-floor water migration.",
-    link: "#condo-restoration-info"
+    icon: Droplets,
+    title: "Standing Water Removal",
+    description: "Removing water from Ocean City home foundations using specialized high-volume pumping systems. We handle coastal storm surges.",
+    link: "#crawl-space-info"
   },
   {
-    icon: Waves,
-    title: "Ocean Surge Cleanup",
-    description: "Rapid sanitation and drying for Ocean City beachfront properties after coastal storm surges and Atlantic flooding events.",
-    link: "#condo-restoration-info"
+    icon: ShieldCheck,
+    title: "Crawl Space Encapsulation",
+    description: "Installing heavy-duty vapor barriers to seal out Maryland's coastal humidity and prevent floor joist rot permanently.",
+    link: "#crawl-space-info"
   },
   {
     icon: Activity,
-    title: "Structural Profiling",
-    description: "Digital mapping of moisture behind drywall and concrete in Ocean City condos using non-invasive thermal imaging cameras.",
-    link: "#condo-restoration-info"
+    title: "Foundation Profiling",
+    description: "Digital mapping of moisture levels in your crawl space to identify hidden leaks and groundwater entry points.",
+    link: "#crawl-space-info"
   },
   {
-    icon: Filter,
+    icon: Thermometer,
     title: "LGR Dehumidification",
-    description: "Removing massive amounts of humidity from MD condo units to prevent persistent beach dampness and secondary mold growth.",
-    link: "#condo-restoration-info"
+    description: "Removing massive amounts of humidity from MD crawl spaces to prevent persistent dampness and secondary mold growth.",
+    link: "#crawl-space-info"
   },
   {
-    icon: Wind,
-    title: "In-Place Drying",
-    description: "Scientific drying techniques to save walls and flooring in Ocean City residences, reducing restoration costs and downtime.",
-    link: "#condo-restoration-info"
+    icon: Home,
+    title: "Sump Pump Installation",
+    description: "Commercial-grade sump pump systems designed to handle Ocean City storm drainage and high-tide intrusions.",
+    link: "#crawl-space-info"
   },
   {
     icon: AlertTriangle,
     title: "Mold Remediation",
-    description: "Full-scale containment and removal of coastal mold colonies that thrive in Ocean City's salt-air and humid condo environments.",
-    link: "#condo-restoration-info"
+    description: "Full-scale containment and removal of foundation mold colonies that thrive in Ocean City's salt-air environments.",
+    link: "#crawl-space-info"
   },
   {
-    icon: ShieldCheck,
-    title: "Maryland Licensed",
-    description: "Professional restoration services fully insured and licensed for work in Maryland condo associations and high-rise HOAs.",
-    link: "#condo-restoration-info"
+    icon: Shield,
+    title: "Maryland State Licensed",
+    description: "Professional crawl space recovery services fully insured and licensed for residential work in Ocean City, MD.",
+    link: "#crawl-space-info"
   },
   {
     icon: Zap,
     title: "24/7 Rapid Response",
-    description: "Ocean City's fastest emergency crew for condo leaks. We are on the boardwalk ready to respond within 45 minutes.",
-    link: "#condo-restoration-info"
+    description: "Ocean City's fastest emergency crew for crawl space floods. We are ready to respond to island property owners 24/7.",
+    link: "#crawl-space-info"
   }
 ];
 
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Ocean City's Condo Restoration Technology
+            Ocean City's Foundation Recovery Technology
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Protect your beach investment. Our Ocean City restoration team uses specialized high-rise equipment and coastal drying protocols to save your property.
+            Protect your island home. Our Ocean City restoration team uses specialized foundation equipment and coastal encapsulation protocols.
           </p>
         </div>
 
@@ -73,10 +73,10 @@ const Services = () => {
                 className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
               >
                 <a href={service.link}>
-                  <div className="w-12 h-12 rounded-lg bg-cyan-100 flex items-center justify-center mb-4 group-hover:bg-cyan-600 transition-colors">
-                    <Icon className="w-6 h-6 text-cyan-600 group-hover:text-white transition-colors" />
+                  <div className="w-12 h-12 rounded-lg bg-teal-100 flex items-center justify-center mb-4 group-hover:bg-teal-600 transition-colors">
+                    <Icon className="w-6 h-6 text-teal-600 group-hover:text-white transition-colors" />
                   </div>
-                  <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors">
+                  <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-teal-600 transition-colors">
                     {service.title}
                   </h3>
                   <p className="text-slate-600 text-sm leading-relaxed">

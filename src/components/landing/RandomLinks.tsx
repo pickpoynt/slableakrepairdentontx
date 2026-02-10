@@ -25,7 +25,7 @@ const RandomLinks = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center items-center gap-6">
           <span className="text-slate-400 font-medium text-sm lg:mr-4 uppercase tracking-widest text-center w-full lg:w-auto mb-4 lg:mb-0">
-            Ocean City's Condo Partners
+            Ocean City's Foundation Partners
           </span>
 
 
@@ -33,11 +33,11 @@ const RandomLinks = () => {
             <a
               key={index}
               href={link.url}
-              className="group flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-2xl text-slate-600 hover:text-cyan-600 hover:border-cyan-300 hover:shadow-lg hover:shadow-cyan-500/10 transition-all duration-300"
+              className="group flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-2xl text-slate-600 hover:text-teal-600 hover:border-teal-300 hover:shadow-lg hover:shadow-teal-500/10 transition-all duration-300"
             >
               <span className="font-bold text-sm tracking-tight">{link.name}</span>
-              <div className="w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-cyan-50 transition-colors">
-                <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-cyan-600 transition-colors" />
+              <div className="w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-teal-50 transition-colors">
+                <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-teal-600 transition-colors" />
               </div>
             </a>
           ))}
