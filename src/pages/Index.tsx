@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import AlondraParkSlabLeakInfo from "@/components/landing/AlondraParkSlabLeakInfo";
+import AlondraParkCopperPipeInfo from "@/components/landing/AlondraParkCopperPipeInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,18 +15,18 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Slab leak detection experts Alondra Park Alondra Park</title>
-        <meta name="description" content="Slab leak detection experts Alondra Park Alondra Park. Expert electronic slab leak detection and foundation leak repair in Alondra Park, CA. 24/7 non-invasive thermal and acoustic diagnostics. Call (877) 792-1410!" />
-        <meta name="keywords" content="Slab leak detection experts Alondra Park, Alondra Park slab leak detection, foundation leak repair Alondra Park, under slab leak detection Alondra Park, electronic leak detection" />
-        <link rel="canonical" href="https://alondra-park-slab-leak-pros.com/" />
+        <title>Copper pipe pinhole leak repair Alondra Park Alondra Park</title>
+        <meta name="description" content="Copper pipe pinhole leak repair Alondra Park Alondra Park. Expert copper pipe pitting corrosion repair and pinhole leak detection in Alondra Park, CA. 24/7 rapid response and precision soldering. Call (877) 792-1410!" />
+        <meta name="keywords" content="Copper pipe pinhole leak repair Alondra Park, Alondra Park copper pipe repair, pinhole leak repair Alondra Park, copper pipe corrosion Alondra Park, South Bay copper plumbing" />
+        <link rel="canonical" href="https://alondra-park-copper-pros.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Alondra Park Slab Leak Pros",
-            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
+            "name": "Alondra Park Copper Pipe Pros",
+            "image": "https://images.unsplash.com/photo-1581244276891-643f809d8463?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
@@ -45,8 +45,8 @@ const Index = () => {
               "@type": "Place",
               "name": "Alondra Park, CA"
             },
-            "priceRange": "$$$",
-            "description": "Professional electronic slab leak detection and foundation diagnostic services in Alondra Park, CA. We utilize acoustic and thermal technology to locate hidden leaks without destruction."
+            "priceRange": "$$",
+            "description": "Professional copper pipe pinhole leak repair and pitting corrosion diagnostics in Alondra Park, CA. We specialize in precision soldering and localized pipe restoration."
           })}
         </script>
 
@@ -55,10 +55,10 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Slab Leak Detection & Diagnostic Services",
+            "serviceType": "Copper Pipe Pinhole Leak Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Alondra Park Slab Leak Pros",
+              "name": "Alondra Park Copper Pipe Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
@@ -67,34 +67,34 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Leak Detection Services",
+              "name": "Copper Pipe Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Electronic Acoustic Leak Pinpointing"
+                    "name": "Pitting Corrosion Diagnostics"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Infrared Thermal Imaging Leak Detection"
+                    "name": "Precision Copper Soldering & Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Tracer Gas Foundation Leak Location"
+                    "name": "Pinhole Leak Moisture Mapping"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Non-Invasive Foundation Diagnostics"
+                    "name": "Whole-System Copper Assessment"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Slab leak detection experts Alondra Park - Precision Foundation Diagnostics" />
-        <meta property="og:description" content="Expert slab leak detection in Alondra Park. Locate hidden foundation leaks with thermal and acoustic precision. Protect your South Bay property." />
+        <meta property="og:title" content="Copper pipe pinhole leak repair Alondra Park - Expert Infrastructure Care" />
+        <meta property="og:description" content="Expert copper pinhole leak repair in Alondra Park. Stop microscopic pitting corrosion with precision soldering and thermal diagnostics. Fast response for South Bay property owners." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://alondra-park-slab-leak-pros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://alondra-park-copper-pros.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1581244276891-643f809d8463?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,18 +115,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              Slab leak detection experts Alondra Park
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Alondra Park Slab Leak Pros</span>
+              Copper pipe pinhole leak repair Alondra Park
+              <span className="block text-orange-400 mt-2 text-2xl md:text-3xl italic">Alondra Park Copper Pipe Pros</span>
             </>
           }
-          subtitle="Alondra Park's trusted authority for high-precision slab leak diagnostics. We provide advanced acoustic pinpointing, thermal imaging, and non-invasive foundation analytics. Professional Structural Quality."
-          image="https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=2669&auto=format&fit=crop"
-          overlayImage="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80"
-          badge="ALONDRA PARK SLAB LEAK EXPERTS"
+          subtitle="Alondra Park's trusted authority for copper pipe pitting restoration. We provide high-precision pinhole leak repair, thermal diagnostics, and mastercraft soldering systems. Professional Infrastructure Quality."
+          image="https://images.unsplash.com/photo-1581244276184-7e504c86e06b?q=80&w=2669&auto=format&fit=crop"
+          overlayImage="https://images.unsplash.com/photo-1550156064-07d0d08018e6?auto=format&fit=crop&q=80"
+          badge="ALONDRA PARK COPPER PIPE EXPERTS"
         />
         <Services />
         <WhyUs />
-        <AlondraParkSlabLeakInfo />
+        <AlondraParkCopperPipeInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

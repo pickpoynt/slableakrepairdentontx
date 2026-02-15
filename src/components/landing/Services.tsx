@@ -9,7 +9,7 @@ const Services = () => {
             Comprehensive <span className="text-indigo-600">Plumbing Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Alondra Park homeowners trust us for expert electronic slab leak diagnostics and foundation protection. We find the leak without the destruction.
+            Alondra Park homeowners trust us for expert copper pipe pitting diagnostics and precision pinhole leak repair. We stop the leaks before they stop you.
           </p>
         </div>
 

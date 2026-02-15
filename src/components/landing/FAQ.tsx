@@ -7,24 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "How do you detect a slab leak without digging?",
-    answer: "We utilize non-invasive electronic technology including acoustic sensors and thermal imaging. These tools allow us to pinpoint the exact location of a leak through concrete with surgical precision, preventing unnecessary damage to your floors."
+    question: "What causes copper pinhole leaks in Alondra Park?",
+    answer: "Copper pinhole leaks are typically caused by pitting corrosion, which occurs due to specific water chemistry factors and microscopic impurities in the pipe material. Local South Bay water conditions can accelerate this internal metal decay."
+  },
+  {
+    question: "How do you find a tiny pinhole leak?",
+    answer: "We use thermal imaging cameras to detect moisture patterns and temperature changes behind walls. This allows us to find the exact location of a microscopic copper leak without intrusive demo work in your Alondra Park home."
+  },
+  {
+    question: "Should I replace all my copper pipes?",
+    answer: "Not always. If pinhole leaks are localized, a surgical sectional repair is often sufficient. However, if our systemic analysis shows widespread pitting corrosion throughout your Alondra Park property, we may recommend a strategic repiping plan."
   },
   {
     question: "Will you provide a price before starting the work?",
     answer: "Absolutely. We believe in transparency. Our technicians will diagnose the issue and provide a clear, upfront, flat-rate pricing assessment before any work begins."
-  },
-  {
-    question: "What are the common signs of a slab leak?",
-    answer: "Common indicators include hot spots on the floor, unusually high water bills, damp carpets, the sound of running water when all taps are off, and cracks in your foundation or walls. We recommend a professional diagnostic if you notice any of these."
-  },
-  {
-    question: "How do I know if my water heater needs to be replaced?",
-    answer: "If your unit is over 10 years old, shows signs of rust, makes rumbling noises, or isn't providing enough hot water, it's time for an inspection. We can help you decide if a repair or a more efficient tankless upgrade is best."
-  },
-  {
-    question: "Does insurance cover slab leak detection?",
-    answer: "While coverage varies by policy, many homeowners' insurance providers cover the cost of professional leak detection when there is evidence of water damage. We provide detailed diagnostic reports to assist with your claim process."
   }
 ];
 
@@ -35,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-blue-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6">
-            Westlake Village Pipe <span className="text-orange-600">FAQ</span>
+            Alondra Park Copper <span className="text-orange-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about cast iron pipe restoration and trenchless technology in Westlake Village.
+            Answers to common questions about copper pipe pitting corrosion and pinhole leak repair in Alondra Park.
           </p>
         </div>
 
