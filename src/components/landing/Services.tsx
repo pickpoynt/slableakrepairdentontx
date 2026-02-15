@@ -9,7 +9,7 @@ const Services = () => {
             Comprehensive <span className="text-emerald-600">Plumbing Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Queens residents trust our rapid 24/7 response for expert emergency diagnostics and precision repair. We provide master-licensed care for all NYC boroughs.
+            West Nyack homeowners trust us for expert infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for Rockland County.
           </p>
         </div>
 

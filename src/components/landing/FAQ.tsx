@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "How fast is your emergency response in Queens?",
-    answer: "Our Queens emergency units typically arrive within 45-60 minutes regardless of borough traffic. We have teams stationed in Astoria, Flushing, and Jamaica to ensure rapid NYC response."
+    question: "Do you offer emergency plumbing in West Nyack?",
+    answer: "Yes. Our West Nyack emergency teams are available 24/7 for urgent pipe bursts, major leaks, and drainage failures. We provide rapid dispatching across Rockland County to minimize property damage."
   },
   {
-    question: "Do you handle burst pipes in high-rise buildings?",
-    answer: "Yes. Our team is specialized in NYC's complex vertical infrastructure. We manage pressure-regulated high-rise systems and coordinate immediate water shut-off to prevent down-unit damage."
+    question: "How do you find hidden leaks in West Nyack homes?",
+    answer: "We utilize advanced acoustic sensors and HD video diagnostics to pinpoint hidden failures, especially in the suburban foundations common in the Clarkstown area."
   },
   {
-    question: "Are your plumbers NYC Master Licensed?",
-    answer: "Absolutely. All our technicians are fully NYC Master Licensed and insured. We adhere strictly to NYC Department of Buildings codes for every emergency restoration project."
+    question: "Are your plumbers licensed in New York?",
+    answer: "Absolutely. All our technicians are fully master-licensed professionals who adhere strictly to New York state building codes and Rockland County municipal standards for every project."
   },
   {
-    question: "What should I do while waiting for the plumber?",
-    answer: "If safe, locate your main water shut-off valve and turn it clockwise. Clear a path to the leak area. Our dispatchers will guide you through immediate mitigation steps on the phone."
+    question: "Will you provide a price assessment before starting?",
+    answer: "Absolutely. We believe in transparency. Our technicians will diagnose the issue and provide a clear, upfront, flat-rate pricing assessment before any technical restoration begins."
   }
 ];
 
@@ -31,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-emerald-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6">
-            Queens Emergency <span className="text-emerald-600">FAQ</span>
+            West Nyack Plumbing <span className="text-emerald-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about rapid emergency diagnostics and restoration in NYC.
+            Answers to common questions about infrastructure systems and expert service in Rockland County.
           </p>
         </div>
 

@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import QueensPlumbingInfo from "@/components/landing/QueensPlumbingInfo";
+import WestNyackPlumbingInfo from "@/components/landing/WestNyackPlumbingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>emergency plumber queens ny Queens NY</title>
-        <meta name="description" content="emergency plumber queens ny Queens NY - 24/7 Expert emergency plumbing repair, burst pipes & severe leak detection in Queens. Rapid NYC response. Call (877) 792-1410!" />
-        <meta name="keywords" content="emergency plumber queens ny, Queens NY plumber, 24 hour plumber Queens, NYC emergency plumbing, Astoria plumber, Flushing plumbing repair, Queens drain cleaning" />
-        <link rel="canonical" href="https://queens-emergency-plumbing.com/" />
+        <title>plumber west nyack ny</title>
+        <meta name="description" content="plumber west nyack ny - Expert plumbing repair, leak detection & maintenance services. 24/7 response for Rockland County. Call (877) 792-1410!" />
+        <meta name="keywords" content="plumber west nyack ny, West Nyack plumber, plumbing repair West Nyack, emergency plumber West Nyack, Rockland County plumbing, Clarkstown plumber" />
+        <link rel="canonical" href="https://west-nyack-plumbing.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Queens Emergency Plumbing Pros",
-            "image": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&q=80&w=1200",
+            "name": "West Nyack Plumbing Pros",
+            "image": "https://images.unsplash.com/photo-1517527667690-0f8a3794b150?auto=format&fit=crop&q=80&w=1200",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Queens",
+              "addressLocality": "West Nyack",
               "addressRegion": "NY",
-              "postalCode": "11101",
+              "postalCode": "10994",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "40.7282",
-              "longitude": "-73.7949"
+              "latitude": "41.0912",
+              "longitude": "-73.9665"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Queens, NY"
+              "name": "West Nyack, NY"
             },
-            "priceRange": "$$$",
-            "description": "24/7 Professional emergency plumbing services in Queens, NY. We specialize in rapid response for burst pipes, flooding, sewer backups, and urgent plumbing repairs throughout all NYC boroughs."
+            "priceRange": "$$",
+            "description": "Professional residential and commercial plumbing services in West Nyack, NY. We specialize in rapid emergency response, technical diagnostics, and high-performance plumbing care for Rockland County homes."
           })}
         </script>
 
@@ -55,46 +55,39 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Emergency Plumbing & Flood Mitigation",
+            "serviceType": "Technical Plumbing Restoration",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Queens Emergency Plumbing Pros",
+              "name": "West Nyack Plumbing Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Queens, NY"
+              "name": "West Nyack, NY"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Emergency Plumbing Services",
+              "name": "West Nyack Plumbing Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "24/7 Burst Pipe Restoration"
+                    "name": "Advanced Pipe Diagnostics"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Sewer Backup Cleaning"
+                    "name": "Emergency System Restoration"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Rapid Leak Detection & Repair"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Commercial Emergency Plumbing"
+                    "name": "Infrastructure Maintenance"
                   }
                 }
               ]
@@ -103,11 +96,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="emergency plumber queens ny Queens NY - Queens Emergency Plumbing Pros" />
-        <meta property="og:description" content="24/7 Emergency plumbing services in Queens, NY. Rapid response for New York City home & business owners. Master licensed & insured." />
+        <meta property="og:title" content="plumber west nyack ny West Nyack NY - West Nyack Plumbing Pros" />
+        <meta property="og:description" content="Expert plumbing services in West Nyack, NY. Rapid response and master-level diagnostics for Rockland County homeowners." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://queens-emergency-plumbing.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&q=80&w=1200" />
+        <meta property="og:url" content="https://west-nyack-plumbing.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1517527667690-0f8a3794b150?auto=format&fit=crop&q=80&w=1200" />
       </Helmet>
 
       <Header />
@@ -115,18 +108,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              emergency plumber queens ny Queens NY
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Queens Emergency Plumbing Pros</span>
+              plumber west nyack ny
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">West Nyack Plumbing Pros</span>
             </>
           }
-          subtitle="Queens' premier 24/7 emergency response team. We provide rapid diagnostic restoration for burst pipes, severe leaks, and NYC infrastructure failures. Precision Emergency Care."
-          image="https://images.unsplash.com/photo-1504151932400-72d433433e33?auto=format&fit=crop&q=80&w=2000"
-          overlayImage="https://images.unsplash.com/photo-1517594422361-5eeb8ae275a9?auto=format&fit=crop&q=80&w=2000"
-          badge="QUEENS EMERGENCY PLUMBERS"
+          subtitle="West Nyack's trusted authority for high-performance infrastructure. We provide precision diagnostics, technical repair, and 24/7 support for Rockland County. Mechanical Excellence."
+          image="https://images.unsplash.com/photo-1517527667690-0f8a3794b150?auto=format&fit=crop&q=80&w=1200"
+          overlayImage="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80&w=2000"
+          badge="WEST NYACK MASTER PLUMBERS"
         />
         <Services />
         <WhyUs />
-        <QueensPlumbingInfo />
+        <WestNyackPlumbingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

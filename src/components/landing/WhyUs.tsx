@@ -11,10 +11,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Queens Trusts Our <span className="text-gold-400">Master Plumbers</span>
+            Why West Nyack Trusts Our <span className="text-gold-400">Master Plumbers</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Protecting NYC infrastructure with technical precision. We specialize in expert emergency plumbing restoration and rapid 24/7 repair for Queens residents.
+            Protecting Rockland County infrastructure with technical precision. We specialize in precision plumbing restoration and rapid repair for West Nyack homeowners.
           </p>
         </div>
 
@@ -27,13 +27,13 @@ const WhyUs = () => {
             },
             {
               icon: MapPin,
-              title: "Queens Local Ready",
-              description: "Our teams are stationed across Queens, meaning rapid response times when pipe failures and flooding signs appear in any neighborhood."
+              title: "West Nyack Local Ready",
+              description: "Our teams are stationed throughout Rockland County, meaning rapid response times when pipe failures and moisture signs appear in Clarkstown."
             },
             {
               icon: Calendar,
               title: "Emergency Response",
-              description: "Plumbing failures are constant threats in NYC. We offer priority dispatching for Queens system assessments and rapid restoration."
+              description: "Plumbing failures are constant threats. We offer priority dispatching for West Nyack system assessments and rapid restoration."
             },
             {
               icon: DollarSign,
@@ -60,7 +60,7 @@ const WhyUs = () => {
           <div className="max-w-xl">
             <h3 className="text-3xl font-bold text-white mb-4">Plumbing Emergency?</h3>
             <p className="text-blue-50 text-lg font-medium opacity-90">
-              Don't wait for structural damage. Our Queens emergency specialist team is ready to restore your systems 24/7.
+              Don't wait for structural damage. Our West Nyack specialist team is ready to restore your systems 24/7.
             </p>
           </div>
           <a
