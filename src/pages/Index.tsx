@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import TorringtonPlumbingInfo from "@/components/landing/TorringtonPlumbingInfo";
+import ElCajonSlabLeakInfo from "@/components/landing/ElCajonSlabLeakInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>plumbers torrington ct</title>
-        <meta name="description" content="plumbers torrington ct - Professional residential and commercial plumbing services in Torrington, CT. Emergency repairs, water heaters, and pipe services. Call (877) 792-1410." />
-        <meta name="keywords" content="plumbers torrington ct, Torrington plumbing, emergency plumber Torrington, water heater repair Torrington, drain cleaning Litchfield County" />
-        <link rel="canonical" href="https://plumbers-torrington-ct.com/" />
+        <title>slab leak detection el cajon</title>
+        <meta name="description" content="slab leak detection el cajon - Expert non-invasive slab leak detection and foundation leak repair in El Cajon, CA. Acoustic diagnostics and rapid response. Call (877) 792-1410." />
+        <meta name="keywords" content="slab leak detection el cajon, El Cajon foundation leak, local leak detection El Cajon, under slab plumbing repair San Diego County" />
+        <link rel="canonical" href="https://slab-leak-detection-el-cajon.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Plumber Torrington CT Pros",
-            "image": "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80",
+            "name": "Slab Leak Detection El Cajon Pros",
+            "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Torrington",
-              "addressRegion": "CT",
-              "postalCode": "06790",
+              "addressLocality": "El Cajon",
+              "addressRegion": "CA",
+              "postalCode": "92020",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "41.8001",
-              "longitude": "-73.1212"
+              "latitude": "32.7948",
+              "longitude": "-116.9625"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Torrington, CT"
+              "name": "El Cajon, CA"
             },
-            "priceRange": "$$",
-            "description": "Professional plumbing services in Torrington, Connecticut. Specialized in leak detection, water heater repair, and emergency plumbing for residential and commercial properties."
+            "priceRange": "$$$",
+            "description": "Specialized slab leak detection and foundation plumbing repair services in El Cajon, California. Using advanced acoustic and thermal imaging technology."
           })}
         </script>
 
@@ -55,39 +55,39 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Plumbing Services",
+            "serviceType": "Slab Leak Detection",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Plumber Torrington CT Pros",
+              "name": "Slab Leak Detection El Cajon Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Torrington, Connecticut"
+              "name": "El Cajon, California"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Torrington Plumbing Catalog",
+              "name": "El Cajon Leak Detection Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Plumbing"
+                    "name": "Electronic Leak Detection"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Water Heater Repair"
+                    "name": "Slab Leak Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Pipe Repair"
+                    "name": "Thermal Imaging Diagnostics"
                   }
                 }
               ]
@@ -96,11 +96,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="plumbers torrington ct - Plumber Torrington CT Pros" />
-        <meta property="og:description" content="Expert plumbing services in Torrington, CT. Rapid response for emergencies, water heaters, and installations in Litchfield County." />
+        <meta property="og:title" content="slab leak detection el cajon - Slab Leak Detection El Cajon Pros" />
+        <meta property="og:description" content="Professional slab leak detection in El Cajon, CA. Non-invasive technology to pinpoints leaks under your foundation quickly." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://plumbers-torrington-ct.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://slab-leak-detection-el-cajon.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -108,18 +108,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              plumbers torrington ct
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Plumber Torrington CT Pros</span>
+              slab leak detection el cajon
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Slab Leak Detection El Cajon Pros</span>
             </>
           }
-          subtitle="Torrington's trusted plumbing authorities. Delivering top-rated residential and commercial plumbing solutions. Serving Litchfield County with pride."
+          subtitle="San Diego East County's slab leak authorities. Non-invasive detection and precision repair for your home's foundation. Serving Fletcher Hills, Granite Hills, and beyond."
           image="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&q=80"
-          badge="TORRINGTON LICENSED PLUMBERS"
+          overlayImage="https://images.unsplash.com/photo-1517646272486-a28f66881793?auto=format&fit=crop&q=80"
+          badge="EL CAJON LEAK SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <TorringtonPlumbingInfo />
+        <ElCajonSlabLeakInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 text-emerald-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Hammer className="w-4 h-4" />
-                PLUMBER TORRINGTON CT PROS
+                SLAB LEAK DETECTION EL CAJON PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule <span className="text-emerald-600">Torrington Service</span>
+                Schedule <span className="text-emerald-600">El Cajon Service</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Protect your Torrington property from plumbing issues. Our specialized team provides rapid, professional solutions throughout Litchfield County.
+                Protect your El Cajon property from hidden water damage. Our specialized team provides rapid, non-invasive slab leak solutions.
               </p>
 
               <div className="space-y-8">
@@ -25,7 +25,7 @@ const Contact = () => {
                     <Phone className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">24/7 EMERGENCY LINE</p>
+                    <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">24/7 LEAK HOTLINE</p>
                     <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-emerald-600 transition-colors">
                       (877) 792-1410
                     </a>
@@ -37,8 +37,8 @@ const Contact = () => {
                     <ShieldCheck className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">Professional Service</p>
-                    <p className="text-xl font-bold text-slate-900">Superior Craftsmanship</p>
+                    <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">Expert Diagnostics</p>
+                    <p className="text-xl font-bold text-slate-900">Non-Invasive Equipment</p>
                   </div>
                 </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">Torrington & Litchfield</p>
+                    <p className="text-xl font-bold text-slate-900">El Cajon & East County</p>
                   </div>
                 </div>
               </div>
