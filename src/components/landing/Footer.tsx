@@ -1,4 +1,4 @@
-import { Phone, Facebook, Twitter, Instagram, Linkedin, Hammer, MapPin } from "lucide-react";
+import { Phone, Facebook, Twitter, Instagram, Linkedin, Hammer, MapPin, Pipette } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -6,18 +6,17 @@ const Footer = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center">
-                <Hammer className="w-6 h-6 text-white" />
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center border border-blue-500/20">
+                <Pipette className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Coos Bay Slab</span>
-                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Leak Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Des Moines Pipe</span>
+                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Lining Pros</span>
               </div>
             </div>
-            <p className="text-slate-400 leading-relaxed font-medium">
-              Coos Bay's specialized slab water line and foundation repair experts.
-              Providing structural leak detection and restoration throughout Coos County and the Oregon Coast.
+            <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
+              Iowa's leading infrastructure specialists. We provide permanent, no-dig solutions for sewer and water line restoration across Des Moines and Polk County.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors group">
@@ -33,90 +32,82 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 font-heading text-white">Our Services</h4>
+            <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Slab Leak Detection</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Pipe Restoration</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Foundation Sealing</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Coastal Mitigation</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Structural Repair</a></li>
+              {["CIPP Pipe Lining", "Trenchless Sewer Repair", "No-Dig Restoration", "Video Pipe Inspection", "Point Repairs"].map((item) => (
+                <li key={item}>
+                  <a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors font-medium flex items-center gap-2 group">
+                    <div className="w-1 h-1 rounded-full bg-blue-500/40 group-hover:w-2 transition-all" />
+                    {item}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 font-heading text-white">Company</h4>
+            <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Company</h4>
             <ul className="space-y-4">
-              <li><a href="#why-us" className="text-slate-400 hover:text-blue-500 transition-colors font-medium uppercase text-xs tracking-widest">Why Choose Us?</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors font-medium uppercase text-xs tracking-widest">Our Services</a></li>
-              <li><a href="#faq" className="text-slate-400 hover:text-blue-500 transition-colors font-medium uppercase text-xs tracking-widest">FAQ</a></li>
-              <li><a href="#contact" className="text-slate-400 hover:text-blue-500 transition-colors font-medium uppercase text-xs tracking-widest">Contact Us</a></li>
-              <li><p className="text-slate-400 font-medium uppercase text-xs tracking-widest">Privacy Policy</p></li>
+              {["About Us", "Our Process", "Service Areas", "Contact Us", "Privacy Policy"].map((item) => (
+                <li key={item}>
+                  <a href="#" className="text-slate-400 hover:text-blue-500 transition-colors font-medium flex items-center gap-2 group">
+                    <div className="w-1 h-1 rounded-full bg-blue-500/40 group-hover:w-2 transition-all" />
+                    {item}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
-          <div className="space-y-8">
-            <h4 className="text-lg font-bold mb-8 font-heading text-white uppercase tracking-widest">24/7 REPAIR HOTLINE</h4>
+          <div>
+            <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Contact Information</h4>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center shrink-0">
-                  <Phone className="w-5 h-5 text-blue-500" />
-                </div>
-                <div>
-                  <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Call Us Now</p>
-                  <a href="tel:8777921410" className="text-lg font-bold text-white hover:text-blue-500 transition-colors">
-                    (877) 792-1410
-                  </a>
-                </div>
+                <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
+                <address className="text-slate-400 not-italic font-medium leading-relaxed">
+                  400 Locust St<br />
+                  Des Moines, IA 50309
+                </address>
               </div>
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center shrink-0">
-                  <MapPin className="w-5 h-5 text-blue-500" />
-                </div>
-                <div>
-                  <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Our Address</p>
-                  <p className="text-white font-bold">
-                    500 Central Ave, Coos Bay, OR 97420
-                  </p>
-                </div>
+              <div className="flex items-center gap-4">
+                <Phone className="w-6 h-6 text-blue-500 shrink-0" />
+                <a href="tel:8777921410" className="text-xl font-bold text-white hover:text-blue-500 transition-colors">
+                  (877) 792-1410
+                </a>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="pt-10 border-t border-slate-900 flex flex-col md:row items-center justify-between gap-6">
-          <p className="text-slate-500 text-sm font-bold uppercase tracking-widest">
-            © {new Date().getFullYear()} COOS BAY SLAB LEAK PROS.
+        <div className="pt-12 border-t border-slate-800 text-center">
+          <p className="text-slate-500 text-sm font-medium italic">
+            © {new Date().getFullYear()} Des Moines Pipe Lining Pros. All rights reserved. Iowa's Trenchless Authority.
           </p>
-          <div className="flex items-center gap-2 text-slate-600 text-[10px] items-center font-bold uppercase tracking-widest">
-            <Hammer className="w-4 h-4 text-blue-500" />
-            <span>Licensed & Insured Coastal Foundation Specialists</span>
-          </div>
         </div>
       </div>
 
       <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-blue-600/5 rounded-full blur-3xl" />
 
-      {/* Schema.org JSON-LD */}
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Coos Bay Slab Leak Pros",
-          "telephone": "+18777921410",
+          "name": "Des Moines Pipe Lining Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "500 Central Ave",
-            "addressLocality": "Coos Bay",
-            "addressRegion": "OR",
-            "postalCode": "97420",
+            "streetAddress": "400 Locust St",
+            "addressLocality": "Des Moines",
+            "addressRegion": "IA",
+            "postalCode": "50309",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "43.3665",
-            "longitude": "-124.2179"
+            "latitude": "41.5868",
+            "longitude": "-93.6250"
           },
-          "openingHours": "Mo-Su 00:00-23:59"
+          "telephone": "+18777921410",
+          "url": "https://trenchless-pipe-lining-des-moines.com/"
         })}
       </script>
     </footer>

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, ArrowRight, ShieldCheck, Wind, Zap, FlaskConical, Search, Microscope, Hammer } from "lucide-react";
+import { Phone, ArrowRight, ShieldCheck, Wind, Zap, FlaskConical, Search, Microscope, Hammer, Pipette } from "lucide-react";
 
 interface HeroProps {
   title?: React.ReactNode;
@@ -68,21 +68,21 @@ const Hero = ({
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-12 border-t border-white/10 animate-fade-in-delay-3 uppercase tracking-widest text-[10px] font-bold">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
-                <Hammer className="w-6 h-6 text-emerald-400" />
+                <Pipette className="w-6 h-6 text-emerald-400" />
               </div>
-              <span className="text-white">Coastal Slab Experts</span>
+              <span className="text-white">Iowa No-Dig Experts</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
                 <ShieldCheck className="w-6 h-6 text-emerald-400" />
               </div>
-              <span className="text-white">Coos County Ready</span>
+              <span className="text-white">Polk County Ready</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
                 <Search className="w-6 h-6 text-emerald-400" />
               </div>
-              <span className="text-white">Precision Detection</span>
+              <span className="text-white">Video Diagnostics</span>
             </div>
           </div>
         </div>

@@ -11,10 +11,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Coos Bay Trusts Our <span className="text-indigo-400">Slab Leak Experts</span>
+            Why Des Moines Trusts Our <span className="text-indigo-400">Trenchless Experts</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Protecting Coos County foundations with technical precision. We specialize in advanced slab water line detection and rapid local support for Coos Bay property owners.
+            Protecting Polk County infrastructure with technical precision. We specialize in advanced no-dig pipe lining and rapid local support for Des Moines property owners.
           </p>
         </div>
 
@@ -23,22 +23,22 @@ const WhyUs = () => {
             {
               icon: ShieldCheck,
               title: "Technical Precision",
-              description: "We utilize advanced electronic diagnostics to pinpoint sub-slab water line failures with extreme accuracy, minimizing property impact."
+              description: "We utilize advanced CIPP diagnostics to pinpoint underground pipe failures with extreme accuracy, restoring flow without excavation."
             },
             {
               icon: MapPin,
-              title: "Coos Bay Local Ready",
-              description: "Our teams are based in Coos County, meaning rapid response times when slab leaks and foundation issues appear along the Oregon Coast."
+              title: "Des Moines Local",
+              description: "Our teams are based in Polk County, meaning rapid response times when sewer backups or drain failures occur in the Metro area."
             },
             {
               icon: Calendar,
               title: "Emergency Response",
-              description: "Sub-slab water leaks are immediate threats. We offer priority dispatching for Coos Bay foundation assessments and rapid water line repair."
+              description: "Sewer and drain issues are immediate threats. We offer priority dispatching for Des Moines pipe assessments and rapid structural lining."
             },
             {
               icon: DollarSign,
               title: "Transparent Pricing",
-              description: "Honest, detailed technical assessments. We provide clear findings and upfront pricing for any necessary slab water line restoration."
+              description: "Honest, detailed technical assessments. We provide clear findings and upfront pricing for any necessary trenchless pipe restoration."
             }
           ].map((feature, index) => (
             <div
@@ -58,9 +58,9 @@ const WhyUs = () => {
 
         <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-indigo-600 to-indigo-800 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl shadow-indigo-900/40 transform hover:scale-[1.02] transition-transform duration-500">
           <div className="max-w-xl">
-            <h3 className="text-3xl font-bold text-white mb-4">Slab Leak Emergency?</h3>
+            <h3 className="text-3xl font-bold text-white mb-4">Sewer Emergency?</h3>
             <p className="text-blue-50 text-lg font-medium opacity-90">
-              Don't wait for foundation flooding. Our Coos Bay specialist team is ready to restore your systems 24/7.
+              Don't dig up your yard. Our Des Moines trenchless specialist team is ready to restore your systems 24/7.
             </p>
           </div>
           <a

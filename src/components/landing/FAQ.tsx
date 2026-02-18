@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "Do you offer emergency slab water line repair in Coos Bay?",
-    answer: "Yes. Our Coos Bay teams are available 24/7 for technical electronic diagnostics and sub-slab water line repairs. We provide rapid support across Coos County to protect your property's foundation from coastal moisture damage."
+    question: "Do you offer emergency trenchless sewer repair in Des Moines?",
+    answer: "Yes. Our Des Moines teams are available 24/7 for technical HD video diagnostics and trenchless pipe restoration. We provide rapid support across Polk County to restore your sewer flow without digging."
   },
   {
-    question: "How do you find water line leaks under Coos Bay concrete slabs?",
-    answer: "We utilize non-invasive electronic leak detection and acoustic correlation technology. By pinpointing the exact sound frequency of a pressurized water line failure, we can locate leaks through your slab with surgical precision."
+    question: "How does trenchless pipe lining work for Des Moines homes?",
+    answer: "We utilize CIPP (Cured-In-Place Pipe) technology. By inserting a structural epoxy liner into your existing pipe, we create a new, seamless line that is stronger than the original, without excavating your yard or driveway."
   },
   {
-    question: "Are your technicians licensed for Oregon coastal projects?",
-    answer: "Absolutely. Our technicians are fully licensed and insured professionals who adhere strictly to Oregon building codes and local Coos Bay residential foundation standards."
+    question: "Are your technicians licensed for Iowa infrastructure projects?",
+    answer: "Absolutely. Our technicians are fully licensed and insured professionals who adhere strictly to Iowa plumbing codes and Des Moines residential and commercial standards."
   },
   {
-    question: "How long does a sub-slab water line repair take?",
-    answer: "Most slab water line leaks can be located and restored within a single day. Our team focuses on non-invasive repairs that minimize disruption to your Coos Bay home while ensuring a permanent fix for the sub-floor plumbing."
+    question: "How long does a Des Moines trenchless lining project take?",
+    answer: "Most trenchless pipe lining projects can be completed in a single day. Our team focuses on efficient, non-invasive restorations that minimize disruption to your property while providing a 50+ year solution."
   }
 ];
 
@@ -31,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6">
-            Coos Bay Slab <span className="text-indigo-600">FAQ</span>
+            Des Moines <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about slab water line leaks and expert foundation repair in Coos Bay, Oregon.
+            Answers to common questions about trenchless pipe lining and no-dig sewer restoration in Des Moines, Iowa.
           </p>
         </div>
 

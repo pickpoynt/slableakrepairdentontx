@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-indigo-600">Slab Leak Services</span>
+            Comprehensive <span className="text-indigo-600">Trenchless Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Coos Bay property owners trust us for technical water line diagnostics and precision sub-slab restoration. We provide specialized care for the entire Oregon Coast.
+            Des Moines property owners trust us for technical pipe diagnostics and precision no-dig restoration. We provide specialized care for all of Polk County.
           </p>
         </div>
 
@@ -17,26 +17,26 @@ const Services = () => {
           {[
             {
               icon: Zap,
-              title: "Leak Detection",
-              description: "We use advanced electronic sensors and ultrasound to pinpoint hidden water line leaks under Coos Bay foundations with extreme precision.",
+              title: "Sewer Lining",
+              description: "We use advanced CIPP technology to create a new, seamless pipe inside your old one, sealing all leaks and preventing future root intrusion.",
               link: "#contact"
             },
             {
               icon: Drill,
-              title: "Line Repair",
-              description: "Specialized sub-slab water line restoration that addresses coastal corrosion and prevents further foundation flooding.",
+              title: "Pipe Bursting",
+              description: "Specialized trenchless replacement for severely damaged lines that can't be lined, replacing the old pipe with a brand-new HDPE line.",
               link: "#contact"
             },
             {
               icon: Camera,
-              title: "Foundation Scan",
-              description: "High-tech non-invasive scans to identify plumbing pathways and failures within the concrete structure of Coos County homes.",
+              title: "HD Inspections",
+              description: "High-tech robotic camera scans to identify structural failures, blockages, and pipe conditions without a single shovel of dirt moved.",
               link: "#contact"
             },
             {
               icon: Waves,
-              title: "Emergency Service",
-              description: "Water line failures are critical. Our 24/7 Coos Bay team is ready to tackle urgent slab leaks and sub-floor plumbing emergencies.",
+              title: "Emergency Repair",
+              description: "Sewer failures are critical. Our 24/7 Des Moines team is ready to tackle urgent backups and underground plumbing emergencies.",
               link: "#contact"
             }
           ].map((service, index) => (
